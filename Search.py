@@ -42,8 +42,8 @@ def search_name_having(_table, _keyword):
         print('----------------------')
 
 
-def search_active(_table, value):
-    pass
+# def search_active(_table, value):
+#     pass
 
 def event_schedule_time(_comparison, time):
 
