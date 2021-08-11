@@ -1,7 +1,7 @@
 from Search import *
 
 # search for events featuring Ireland
-# search_name_having('event', 'ireland')
+search_name_having('event', 'ireland')
 
 # search for selections about football
 search_name_having('selection', 'football')

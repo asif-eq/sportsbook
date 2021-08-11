@@ -64,8 +64,6 @@ def check_sports_active_status(name):
     cur = conn.cursor()
     rows = cur.execute("select active from event where sport = ?", (name,)).fetchall()
 
-    print(rows)
-
     if 'true' in rows or 'True' in rows:
         print(f'Sport {name} is still active')
 
