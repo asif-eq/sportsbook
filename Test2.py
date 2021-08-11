@@ -12,4 +12,6 @@ update_selection_active_status('germany to win ireland vs germany football match
 read_selection()
 check_event_active_status('ireland vs england germany match')
 
+
 check_sports_active_status('football')
+read_sports()
