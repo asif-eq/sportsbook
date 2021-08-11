@@ -1,7 +1,6 @@
 from Sport import *
 from Event import *
 from Selection import *
-from Search import *
 
 
 if __name__ == '__main__':
@@ -13,17 +12,17 @@ if __name__ == '__main__':
 
     ## Create read and update a new sport
 
-    # create_sports('', '', 'unsure')
     # create_sports('basketball', 'www.nba.com', 'true')
     # update_sport_active_status('basketball', 'false')
     # check_sports_active_status('basketball')
+    # read_sports()
 
 
     ## Create read and update a new event
 
     # create_event('ireland vs wales basketball match', 'www.irevswalesbasketball.com' ,
     #              'true','inplay', 'basketball', 'pending', '2021-09-15 09:30:00','TBD')
-
+    #
     # read_event()
 
 
